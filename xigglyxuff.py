@@ -9,7 +9,9 @@ list = ['b', 'd', 'f', 'g', 'j', 'l', 'm', 'n',
 
 print ('Hello, pokédude. Here are the usernames you requested.\n')
 
-random.shuffle(list)
-
-for i in range(10):
-    print ('\t\t',list.pop().title()+'iggly'+list.pop()+'uff')
+for i in range(15):
+    c1 = random.choice(list)
+    c2 = random.choice(list)
+    while c2 == c1:
+        c2 = random.choice(list)
+    print ('\t\t',c1.title()+'iggly'+c2+'uff')
