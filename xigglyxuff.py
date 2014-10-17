@@ -1,3 +1,4 @@
+#!/usr/bin/python
 import random
 
 list = ['b', 'd', 'f', 'g', 'j', 'l', 'm', 'n', 
