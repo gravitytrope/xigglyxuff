@@ -1,0 +1,22 @@
+__module_name__ = 'Xigglyxuff'
+__module_version__ = '1.0'
+__module_description__ = 'Randomly generates a Xigglyxuff nick'
+
+import random
+import hexchat
+
+
+list = ['b', 'd', 'f', 'g', 'j', 'l', 'm', 'n', 
+        'r', 's', 't', 'w', 'z', 'br', 'bl', 'p',
+        'dr', 'fl', 'fr', 'gl', 'gr', 'pl', 'pr',
+        'sn', 'sp', 'st', 'sw', 'tr', 'tw', 'wr',
+        ]
+
+c1 = random.choice(list)
+c2 = random.choice(list)
+while c2 == c1:
+    c2 = random.choice(list)
+
+xignick = 'nick '+c1.title()+'iggly'+c2+'uff'
+
+print(hexchat.command(xignick))
