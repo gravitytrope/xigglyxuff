@@ -9,5 +9,7 @@ list = ['b', 'd', 'f', 'g', 'j', 'l', 'm', 'n',
 
 print ('Hello, pokédude. Here are the usernames you requested.\n')
 
+random.shuffle(list)
+
 for i in range(10):
-    print ('\t\t',''.join((random.choice(list).title(),'iggly',random.choice(list),'uff')))
+    print ('\t\t',list.pop().title()+'iggly'+list.pop()+'uff')
