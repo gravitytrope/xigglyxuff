@@ -8,10 +8,10 @@ list = ['b', 'd', 'f', 'g', 'j', 'l', 'm', 'n',
         'sn', 'sp', 'st', 'sw', 'tr', 'tw', 'wr',
         ]
 
-print ('Hello, pokédude.\n')
+print ('Hello, pokédude.')
 
 while True:
-    print ('How many usernames do you want me to generate? (q to quit)\n')
+    print ('\nHow many usernames do you want me to generate? (q to quit)\n')
     u1 = input()
 
     if u1 == 'q':
@@ -24,4 +24,4 @@ while True:
         while c2 == c1:
             c2 = random.choice(list)
         print ('\t\t',c1.title()+'iggly'+c2+'uff')
-    print()
+
