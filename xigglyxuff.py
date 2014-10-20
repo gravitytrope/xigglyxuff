@@ -7,9 +7,10 @@ list = ['b', 'd', 'f', 'g', 'j', 'l', 'm', 'n',
         'sn', 'sp', 'st', 'sw', 'tr', 'tw', 'wr',
         ]
 
-print ('Hello, pokédude. Here are the usernames you requested.\n')
+print ('Hello, pokédude. How many usernames do you want me to generate?\n')
+u1 = int(input())
 
-for i in range(15):
+for i in range(u1):
     c1 = random.choice(list)
     c2 = random.choice(list)
     while c2 == c1:
