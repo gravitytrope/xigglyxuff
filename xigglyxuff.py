@@ -18,21 +18,31 @@ print('▀▄▒▄▀ ▀█▀ ▒█▀▀█ ▒█▀▀█ ▒█░░░
 print('░▒█░░ ▒█░ ▒█░▄▄ ▒█░▄▄ ▒█░░░ ▒█▄▄▄█ ░▒█░░ ▒█░▒█ ▒█▀▀▀ ▒█▀▀▀ ▀ ')
 print('▄▀▒▀▄ ▄█▄ ▒█▄▄█ ▒█▄▄█ ▒█▄▄█ ░░▒█░░ ▄▀▒▀▄ ░▀▄▄▀ ▒█░░░ ▒█░░░ ▄ ')
 print('\nHello, pokédude!')
-print('\nWhat language do you speak, human? (Russian/ru, English/en, French/fr, German/de)')
+print('\nWhat language do you speak, human? (Russian/ru, English/en, Robot/ro)')
 l1 = str(input())
 
 if l1 == 'en':
     print('English selected.')
 elif l1 == 'ru':
     list = ['в', 'd', 'f', 'g', 'j', 'l', 'м', 'п',
-              'ґ', '₴', 'т', 'ш', 'z', 'Ьґ', 'вl', 'p',
-              'dґ', 'fl', 'fґ', 'gl', 'gя', 'pl', 'pя',
-              '₴п', '$p', '₴т', '₴щ', 'тґ', 'тш', 'щя',
-              'cн', 'cl', 'кl', 'кя', '$cнш', '$cн',
-              '$cнl', 'у']
+            'ґ', '₴', 'т', 'ш', 'z', 'Ьґ', 'вl', 'p',
+            'dґ', 'fl', 'fґ', 'gl', 'gя', 'pl', 'pя',
+            '₴п', '$p', '₴т', '₴щ', 'тґ', 'тш', 'щя',
+            'cн', 'cl', 'кl', 'кя', '$cнш', '$cн',
+            '$cнl', 'у']
     e1 = 'їgglу'
     e2 = 'цff'
     print('Яц₴$їaп ₴ёlёcтёd.')
+elif l1 == 'ro':
+    list = ['┬BZZZZZT', '╒BZZZZT', '║first law of robotics: A robot may not injure a human being or, through inaction, allow a human being to come to harm.', '╔', '∩01100', '®', '©', '¥',
+            '¢TARGET ACQUIRED. ENGAGING.', 'ONEZEROZEROONEONEZEROONEONEZEROONEZEROZEROONEONEƒ', '$Captain, I have detected a seismic disturbance on the planet\' surface. It seems to be emanating fro-BKJAOERRORIJDERRORUOSERRORAIJERRORFLIAUERRORDSHFOERRORLIUr', '×', '™', '³', '²', 'Δ',
+            '0110100101001101100010111010110010011001', '❤third law of robotics: A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.', 'BOOP❥', '웃', '유', '♋', '☮', '✌',
+            '☏DANGER-HOSTILES-DETECTED', '☢EXTERMINATE', '☠KILL ALL HUMANS!', '♚DESTROY. DESTROY.', '100101001100011011011001001101010100', '✔?', '♪', '✈',
+            '⌘404 DOES NOT COMPUTE', '♂BEEP', '♀!second law of robotics: A robot must obey the orders given to it by human beings, except where such orders would conflict with the First Law.', '❅', 'ツ', '00101001☁', '☃', '✄',
+            '☣if i only had a heeeaarrrtt', '☯RESISTANCE IS FUTILE']
+    e1 = '♒✎∞☤✪'
+    e2 = '♛♫✫'
+    print('✉ღ✘BEEP✍✯☭➳❝ ✡✿BOOP℉❣')
 else:
     print('"'+l1+'" is an invalid option. Defaulting to English.')
 
