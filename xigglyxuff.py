@@ -85,7 +85,7 @@ def main():
                 xiglist.append(xig)
 
             professor = random.choice(xiglist)
-            groupsize = 5
+            groupsize = 4
 
             while len(xiglist) > 0:
                 tmp = [xiglist[i] for i in range(groupsize) if i < len(xiglist)]
