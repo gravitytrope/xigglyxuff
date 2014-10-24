@@ -95,7 +95,7 @@ def main():
             end = time.time()
             elapsed = end - start
 
-            print('\n\nTime taken:', elapsed, 'seconds.')
+            print('\nTime taken:', elapsed, 'seconds.')
             print('\nProfessor Oak thinks', professor, 'is a good choice.')
             del xiglist[:]
 
