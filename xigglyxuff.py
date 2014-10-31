@@ -11,7 +11,7 @@ def main():
              'dr', 'fl', 'fr', 'gl', 'gr', 'pl', 'pr',
              'sn', 'sp', 'st', 'sw', 'tr', 'tw', 'wr',
              'ch', 'cl', 'kl', 'kr', 'schw', 'sch',
-             'schl', 'y', '']
+             'schl', 'y']
     # Our default bits that aren't changed
     e1 = 'iggly'
     e2 = 'uff'
