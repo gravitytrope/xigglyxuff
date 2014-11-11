@@ -1,7 +1,12 @@
-﻿xigglyxuff
-==========
+﻿xigglyxuff.py
+==============
 
 Random pokémon-related username generator in Python.
+
+xigglyxuff.pl
+=============
+
+Random pokémon-related username generator in Perl, with neat tables!
 
 xigglyxuffIRC
 =============
